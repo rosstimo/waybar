@@ -1,0 +1,28 @@
+{
+
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  "$HOME/.config/waybar/ModulesOmarchy",
+  ],
+
+  "reload_style_on_change": true,
+  "layer": "top",
+  "position": "top",
+  "spacing": 5,
+  "height": 26,
+  "modules-left": ["custom/omarchy", "hyprland/workspaces#pacman" ],
+  "modules-center": ["wlr/taskbar#tim" ],
+  "modules-right": [
+    "group/tray-expander#omarchy",
+    "bluetooth#omarchy",
+    "pulseaudio#omarchy",
+    "battery#omarchy",
+    "clock#omarchy",
+    "custom/update",
+    "custom/screenrecording-indicator"
+  ],
+}
