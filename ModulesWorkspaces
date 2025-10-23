@@ -62,8 +62,8 @@
 	"format": "{icon}",
 	"format-icons": {
             "active": "<span font='12'>󰮯</span>",
-            "empty": "<span font='8'></span>",
-            "default": "󰊠",
+            "empty": "<span font='5'></span>",
+            "default": "<span font='10'>󰊠</span>",
 	},
 },
 // Kanji / Japanese style
