@@ -15,6 +15,7 @@ window#waybar {
 	background:transparent;
 	border-radius: 1px;
 	color: whitesmoke;
+  padding-left: 30px;
 }
 	
 window#waybar.hidden {
