@@ -9,7 +9,7 @@
 
 "wlr/taskbar#tim": {
 	"format": "{icon}",
-	"icon-size": 16,
+	"icon-size": 18,
 	"all-outputs": false,
 	"tooltip-format": "{title}",
 	"on-click": "activate",
