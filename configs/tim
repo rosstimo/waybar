@@ -22,7 +22,6 @@
 
   "modules-right": [
     "group/tray-expander#omarchy",
-    "bluetooth#omarchy",
     "pulseaudio#omarchy",
     "battery#omarchy",
     "clock#omarchy",
