@@ -1,6 +1,6 @@
 /* Tim's Waybar style */
 /* Keep the current Omarchy palette for now. We can make this distro-independent next. */
-@import "../omarchy/current/theme/waybar.css";
+@import 'style/colors.css';
 
 * {
   font-family: "JetBrainsMono Nerd Font";
