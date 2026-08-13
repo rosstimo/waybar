@@ -95,3 +95,21 @@ tooltip {
     color: #000000;
   }
 }
+
+/* Left side */
+#custom-omarchy {
+  font-size: 85%;
+}
+
+#workspaces {
+  font-size: 150%;
+}
+
+/* Right side, excluding tray */
+#bluetooth,
+#pulseaudio,
+#battery,
+#clock,
+#custom-screenrecording-indicator {
+  font-size: 80%;
+}

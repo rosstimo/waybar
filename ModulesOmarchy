@@ -85,7 +85,7 @@
     "format-disabled": "󰂲",
     "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "blueberry"
+    "on-click": "blueman-manager"
   },
   "pulseaudio#omarchy": {
     "format": "{icon}",
@@ -107,7 +107,7 @@
     "modules": ["custom/expand-icon", "tray"]
   },
   "custom/expand-icon": {
-    "format": " ",
+    "format":"<span font='12'> </span>",
     "tooltip": false
   },
   "custom/screenrecording-indicator": {
@@ -117,7 +117,7 @@
     "return-type": "json"
   },
   "tray": {
-    "icon-size": 16,
-    "spacing": 12
+    "icon-size": 23,
+    "spacing": 8
   }
 }
