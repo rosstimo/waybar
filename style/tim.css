@@ -113,3 +113,14 @@ tooltip {
 #custom-screenrecording-indicator {
   font-size: 80%;
 }
+/* Tray popup menus */
+#tray menu {
+  font-size: 60%;
+}
+
+/* Restore GTK tray-menu indicators */
+#tray menu check,
+#tray menu radio {
+  min-width: 16px;
+  min-height: 16px;
+}
